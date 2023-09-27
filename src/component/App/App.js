@@ -2,6 +2,8 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import Card from '../Card/Card';
 import aier from './aier-logo.png'
+import temp from './temp.png'
+import visible from './visible.png'
 
 import weather from './weather-img.png'
 
@@ -55,17 +57,17 @@ function App() {
           setCity(e.target.value);
         }}
       />
-       <button type='button' 
+       {/* <button type='button' 
       className='search-btn'
-       > 🔍</button> 
+       > 🔍</button>  */}
 
       <div className='row'>
         <div className='col'>
           <p className='city-name ml-5'> {city}</p>
           <p className='discription ml-5'> {weatherDescription}</p>
           <div className=' ml-5 mt'>
-            <Card Img={aier} report={humidity} unit={'°F'} />
-            <Card Img={aier} report={weatherData?.visibility} unit={'Meters'} />
+            <Card Img={temp} report={humidity} unit={'°F'} />
+            <Card Img={visible} report={weatherData?.visibility} unit={'Meters'} />
             <Card Img={aier} report={wind} unit={'km/h'} />
 
           </div>
