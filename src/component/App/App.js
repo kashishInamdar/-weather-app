@@ -55,9 +55,9 @@ function App() {
           setCity(e.target.value);
         }}
       />
-      {/* <button type='button' 
+       <button type='button' 
       className='search-btn'
-       > 🔍</button> */}
+       > 🔍</button> 
 
       <div className='row'>
         <div className='col'>
