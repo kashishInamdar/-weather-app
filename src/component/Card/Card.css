@@ -11,10 +11,11 @@
 }
 .card-img{
     height:70px;
+    margin-left: 5px;
     display: inline-block;
 }
 .card-report{
     font-size: 25px;
     margin-left: 20px;
-    color: white;
+    
 }

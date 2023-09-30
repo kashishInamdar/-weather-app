@@ -45,6 +45,8 @@ function App() {
 
   }, [weatherData])
 
+  
+
 
   return (
     <div className='container'>
@@ -67,9 +69,8 @@ function App() {
           <p className='discription ml-5'> {weatherDescription}</p>
           <div className=' ml-4 mt'>
             <Card Img={temp} report={humidity} unit={'°F'} />
-            <Card Img={visible} report={weatherData?.visibility} unit={'Meters'} />
+            <Card Img={visible} report={weatherData?.visibility} unit={'m'} />
             <Card Img={aier} report={wind} unit={'km/h'} />
-
           </div>
         </div>
 
