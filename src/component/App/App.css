@@ -32,18 +32,17 @@
 .row{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     
 }
 .col{
     padding: 2px ;
     margin: 2px;
-   
 }
 .weather-img{
     height: 400px;
     margin-bottom: 80px;
-    margin-left:8vw ;
+    margin-left:4vw ;
     
     
 }
@@ -66,6 +65,9 @@
 }
 .ml-5{
     margin-left: 50px;
+}
+.ml-4{
+    margin-left: 40px;
 }
 .mt{
     margin-top: 80px;

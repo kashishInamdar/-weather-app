@@ -1,6 +1,6 @@
 .cardcontainer{
     /* height: 180px; */
-    width: 200px;
+    width: 180px;
     background-color: #ffffff5a;
     border-radius: 10px;
     margin: 20px;
@@ -10,7 +10,7 @@
     font-size: 25px;
 }
 .card-img{
-    height: 90px;
+    height:70px;
     display: inline-block;
 }
 .card-report{
